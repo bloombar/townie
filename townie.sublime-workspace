@@ -1,0 +1,269 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "views/layout.pug",
+			"settings":
+			{
+				"buffer_size": 125,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/amos/Documents",
+		"/Users/amos/Documents/townie",
+		"/Users/amos/Documents/townie",
+		"/Users/amos/Documents/townie/public",
+		"/Users/amos/Documents/townie/routes",
+		"/Users/amos/Documents/townie/views"
+	],
+	"file_history":
+	[
+		"/Users/amos/Documents/townie/routes/index.js",
+		"/Users/amos/Documents/townie/views/index.pug",
+		"/Users/amos/Documents/townie/queries.json",
+		"/Users/amos/Documents/townie/index.js",
+		"/Users/amos/Documents/geolocation_mongodb/new/_messages.py",
+		"/Users/amos/Documents/geolocation_mongodb/new/process_message.py",
+		"/Users/amos/Desktop/server.js",
+		"/Users/amos/Desktop/vr_headset_notes.txt",
+		"/Users/amos/Desktop/townie_changelog.txt",
+		"/Users/amos/Documents/notes/misc.txt",
+		"/Users/amos/Documents/notes/tax_planning.txt",
+		"/Users/amos/Documents/notes/australia_citizenship_checklist.txt",
+		"/Users/amos/Documents/notes/google_account.txt",
+		"/Users/amos/Documents/notes/eurostar_payment_notes.txt",
+		"/Users/amos/Documents/notes/nltk_notes.txt",
+		"/Users/amos/Desktop/php_examples/3.execute_mysql_queries_from_php/3.creating_well_formatted_html_documents_with_content_pulled_from_a_mysql_table.php",
+		"/Users/amos/Desktop/php_examples/3.execute_mysql_queries_from_php/2.looping_through_results_of_a_read_query.php",
+		"/Users/amos/Desktop/php_examples/3.execute_mysql_queries_from_php/1.the_general_pattern.php",
+		"/Users/amos/Desktop/php_examples/3.execute_mysql_queries_from_php/4.paginating_results_from_a_mysql_query.php",
+		"/Users/amos/Desktop/db_design_midterm_notes.txt",
+		"/Users/amos/Desktop/python_server_side/1.barebones_example_using_template_page_template.txt",
+		"/Users/amos/Desktop/ines.html",
+		"/Users/amos/Desktop/moving_through_glass_clinician_questionnaire.txt",
+		"/Users/amos/Desktop/viking_metal_bands/README.txt",
+		"/Users/amos/Desktop/viking_metal_bands/index.php",
+		"/Users/amos/Desktop/foo.json",
+		"/Users/amos/Desktop/jabberwocky.txt",
+		"/Users/amos/Documents/db_design/text_files/students.csv",
+		"/Users/amos/.Trash/table 11.45.23 PM.csv"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 133.0,
+		"where_history":
+		[
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mindis",
+			"{",
+			"}",
+			"screen_name",
+			"name",
+			"}",
+			"{",
+			",",
+			"\\\\n",
+			",",
+			"ï¿½",
+			"\\t",
+			"\\t\\t",
+			"\\|\\|",
+			"||",
+			"\\|\\|",
+			"Laietana"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"}\\n",
+			"{\\n",
+			",\\n",
+			"\\n",
+			"-",
+			" - ",
+			"-",
+			"",
+			"\\t",
+			"\\n|"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "views/layout.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 44.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "townie.sublime-project",
+	"replace":
+	{
+		"height": 84.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 157.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

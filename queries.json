@@ -1,0 +1,87 @@
+//get all discussions near a certain longitude,latitude; ordered by date
+discussions = db.geomessages.aggregate(
+	[
+		//criteria:
+		{
+			$geoNear: {
+				near: { 
+					type: 'Point', 
+					coordinates: [ longitude , latitude ]
+				},
+				distanceField: 'dist.calculated',
+				$minDistance: 0,
+				$maxDistance: radius_meters,
+				query: { 
+					group: 'public' //public, private, or custom groups
+				},
+				includeLocs: 'dist.location',
+				num: 100,
+				spherical: true
+			} //$geoNear
+		},
+		//sort order:
+		{
+			$sort: {
+				created_at: -1
+			} //sort
+		}
+	]
+);
+
+//JSON format of a single message
+message = {
+    user: {
+        _id: user_id,
+        handle: user_handle,
+        email: user_email,
+        phone: user_phone
+    },
+    loc: {
+        type: 'Point', 
+        coordinates: [ message_longitude, message_latitude ]
+    },
+    group: 'public', //public, private, or custom groups
+    created_at: message_timestamp,
+    content: {
+        title: message_title,
+        body: message_body,
+        images: [
+        	message_image_path1,
+        	message_image_path2,
+        	message_image_path3
+        ],
+        venues: [
+        	{
+	        	_id: venue_id,
+	        	name: venue_name,
+	        	address: {
+		        	street1: venue_street1,
+		        	street2: venue_street2,
+		        	city: venue_city,
+		        	state: venue_state,
+		        	postal_code: venue_postal_code,
+		        	country: venue_country,
+	        	}, //address
+			    loc: {
+			        type: 'Point', 
+			        coordinates: [ venue_longitude, venue_latitude ]
+			    } //loc
+	        } //venue
+	    ] //venues
+    } //content
+} //message
+
+//JSON format of an entire discussion
+discussion = {
+    messages: [
+        message1,
+        message2,
+        message3
+    ],
+    loc: {
+        type: 'Point', 
+        coordinates: [ discussion_longitude, discussion_latitude ]
+    },  
+    created_at: discussion_timestamp
+} //discussion
+

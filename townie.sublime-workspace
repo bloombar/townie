@@ -7,15 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "views/layout.pug",
-			"settings":
-			{
-				"buffer_size": 125,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -59,6 +50,12 @@
 	"file_history":
 	[
 		"/Users/amos/Documents/townie/routes/index.js",
+		"/Users/amos/Documents/townie/routes/discussions.js",
+		"/Users/amos/Documents/townie/views/discussions.pug",
+		"/Users/amos/Documents/townie/views/layout.pug",
+		"/Users/amos/Documents/townie/routes/users.js",
+		"/Users/amos/Documents/townie/app.js",
+		"/Users/amos/Documents/townie/package.json",
 		"/Users/amos/Documents/townie/views/index.pug",
 		"/Users/amos/Documents/townie/queries.json",
 		"/Users/amos/Documents/townie/index.js",
@@ -90,7 +87,7 @@
 	],
 	"find":
 	{
-		"height": 54.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -106,6 +103,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"discuss",
+			"index",
 			"mindis",
 			"{",
 			"}",
@@ -150,43 +149,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "views/layout.pug",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 125,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 44.0
+		"height": 40.0
 	},
 	"input":
 	{
@@ -223,7 +193,7 @@
 	"project": "townie.sublime-project",
 	"replace":
 	{
-		"height": 84.0
+		"height": 76.0
 	},
 	"save_all_on_build": true,
 	"select_file":

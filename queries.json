@@ -1,3 +1,7 @@
+/**
+ * Quick reference for MongoDB queries and document structures used in this app
+**/
+
 //get all discussions near a certain longitude,latitude; ordered by date
 discussions = db.geomessages.aggregate(
 	[

@@ -1,0 +1,47 @@
+{
+    "//": "An example of a document representing a single message",
+    user: {
+        "//": "A document representing the user who 'owns' this discussion",
+        _id: user_id,
+        handle: user_handle,
+        email: user_email_address,
+        phone: user_phone_number
+    },
+    loc: {
+        "//": "The geospatial coordinates of the entire discussion",
+        type: 'Point', 
+        coordinates: [ message_longitude, message_latitude ]
+    },
+    group: 'public', 
+    created_at: message_timestamp,
+    content: {
+        "//": "The main content of this message",
+        title: message_title,
+        body: message_body,
+        images: [
+        	message_image1_path,
+        	message_image2_path,
+        	message_image3_path
+        ],
+        venues: [
+        	{
+                "//": "a sub-document representing a venue",
+	        	_id: venue_id,
+	        	name: venue_name,
+	        	address: {
+		        	street1: venue_street1,
+		        	street2: venue_street2,
+		        	city: venue_city,
+		        	state: venue_state,
+		        	postal_code: venue_postal_code,
+		        	country: venue_country,
+	        	}, 
+			    loc: {
+                    "//": "geospatial coordinates of this venue",
+			        type: 'Point', 
+			        coordinates: [ venue_longitude, venue_latitude ]
+			    } 
+	        } 
+	    ] 
+    } 
+}

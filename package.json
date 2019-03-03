@@ -1,42 +1,35 @@
 {
   "name": "townie",
   "description": "",
-  "author": "Amos Bloomberg",
-  "version": "0.0.1",
+  "author": "Foo Barstein",
+  "version": "0.0.2",
   "private": true,
-
-  "//": "The scripts are used to build, launch and debug both the server and",
-  "//": "client side apps. e.g. `npm install` will install the client and",
-  "//": "server-side dependencies",
+  "//": "client-side dependencies are specified in 'public/package.json').",
   "scripts": {
     "start": "node ./bin/www",
     "debug": "node-debug ./bin/www",
     "express": "node ./bin/www",
     "express-debug": "node-debug ./bin/www"
-  },  
-
-  "//": "The Node.js modules that are needed for the server-side application (the",
-  "//": "client-side dependencies are specified in 'public/package.json').",
+  },
   "dependencies": {
-    "body-parser": "~1.16.0",
+    "body-parser": "^1.18.3",
     "cookie-parser": "~1.4.3",
-    "debug": "~2.6.0",
-    "express": "^4.14.1",
-    "morgan": "~1.7.0",
-    "pug": "~2.0.0-beta10",
-    "serve-favicon": "~2.3.2",
-    "mongodb": "^2.2.25",
-
     "ee-first": "^1.1.1",
     "ejs": "^2.5.2",
+    "express": "^4.16.4",
     "external-ip": "^0.2.4",
     "methods": "^1.1.2",
-    "request": "^2.74.0",
+    "mongodb": "^2.2.25",
+    "morgan": "^1.9.1",
+    "pug": "~2.0.0-beta10",
+    "request": "^2.88.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "main": "app.js",
+  "devDependencies": {
+    "debug": "~2.6.0",
     "typescript": "^2.2.1"
   },
-
-  "main": "app.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bloombar/townie.git"
@@ -45,9 +38,9 @@
     "social",
     "network"
   ],
-  "license": "ISC",
+  "license": "GPL3",
   "bugs": {
     "url": "https://github.com/bloombar/townie/issues"
   },
-  "homepage": "https://github.com/bloombar/townie#readme"
+  "homepage": "https://github.com/bloombar/townie"
 }

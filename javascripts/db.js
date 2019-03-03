@@ -5,7 +5,7 @@ This module provides helper methods to allow the application to interact with a 
 var MongoClient = require('mongodb').MongoClient
 
 function DB () {
-  this.db = null			// The MongoDB database connection
+  this.db = null // The MongoDB database connection
 }
 
 DB.prototype.connect = function (uri) {
@@ -140,13 +140,13 @@ DB.prototype.sampleCollection = function (coll, numberDocs) {
         // individual documents here.
 
         cursor.toArray(function (error, docArray) {
-			    	if (error) {
+          if (error) {
             console.log('Error reading fron cursor: ' + error.message)
             reject(error.message)
           } else {
             resolve(docArray)
           }
-		    	})
+        })
       }
     })
   })
@@ -276,13 +276,13 @@ DB.prototype.mostRecentDocument = function (coll) {
       } else {
         var cursor = collection.find({}).sort({ _id: -1 }).limit(1)
         cursor.toArray(function (error, docArray) {
-			    	if (error) {
+          if (error) {
             console.log('Error reading fron cursor: ' + error.message)
             reject(error.message)
           } else {
             resolve(docArray[0])
           }
-		    	})
+        })
       }
     })
   })

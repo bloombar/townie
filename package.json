@@ -12,15 +12,15 @@
     "express-debug": "node-debug ./bin/www"
   },
   "dependencies": {
-    "bson": ">=1.0.5",
     "body-parser": "^1.18.3",
-    "cookie-parser": "~1.4.3",
+    "bson": ">=1.0.5",
+    "cookie-parser": "^1.4.4",
     "ee-first": "^1.1.1",
-    "ejs": "^2.5.2",
+    "ejs": "^2.6.1",
     "express": "^4.16.4",
     "external-ip": "^0.2.4",
     "methods": "^1.1.2",
-    "mongodb": "^2.2.25",
+    "mongodb": "^2.2.36",
     "morgan": "^1.9.1",
     "pug": "^2.0.3",
     "request": "^2.88.0",
@@ -40,7 +40,7 @@
     "eslint-plugin-standard": "^4.0.0",
     "mocha": "^6.0.2",
     "nyc": "^13.3.0",
-    "typescript": "^2.2.1"
+    "typescript": "^2.9.2"
   },
   "repository": {
     "type": "git",

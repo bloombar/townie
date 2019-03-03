@@ -12,6 +12,7 @@
     "express-debug": "node-debug ./bin/www"
   },
   "dependencies": {
+    "bson": ">=1.0.5",
     "body-parser": "^1.18.3",
     "cookie-parser": "~1.4.3",
     "ee-first": "^1.1.1",
